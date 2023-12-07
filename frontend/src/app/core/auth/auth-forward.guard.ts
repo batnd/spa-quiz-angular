@@ -23,8 +23,3 @@ export class AuthForwardGuard implements CanActivate {
     return true;
   }
 }
-
-// export const authForwardGuard: CanActivateFn = (route, state) => {
-//
-//   return true;
-// };
